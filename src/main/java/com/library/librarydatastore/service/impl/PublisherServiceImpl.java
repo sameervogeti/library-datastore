@@ -1,4 +1,4 @@
-package com.library.librarydatastore.service.publisher.impl;
+package com.library.librarydatastore.service.impl;
 
 import com.library.librarydatastore.entities.Publisher;
 import com.library.librarydatastore.model.request.PublisherRequest;

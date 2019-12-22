@@ -1,7 +1,7 @@
 package com.library.librarydatastore.controllers;
 
 import com.library.librarydatastore.model.request.PublisherRequest;
-import com.library.librarydatastore.service.publisher.impl.PublisherServiceImpl;
+import com.library.librarydatastore.service.impl.PublisherServiceImpl;
 import lombok.extern.java.Log;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
