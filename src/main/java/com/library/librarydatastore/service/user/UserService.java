@@ -18,4 +18,6 @@ public interface UserService {
 
     Integer issueBookToUser(UserRequest userRequest);
 
+    void returnBookfromUser(UserRequest userRequest);
+
 }

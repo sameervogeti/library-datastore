@@ -3,7 +3,9 @@ package com.library.librarydatastore.service.impl;
 import com.library.librarydatastore.entities.Author;
 import com.library.librarydatastore.model.request.AuthorRequest;
 import com.library.librarydatastore.service.author.AuthorService;
+import org.springframework.stereotype.Component;
 
+@Component
 public class AuthorServiceImpl implements AuthorService {
 
     @Override

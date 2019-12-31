@@ -3,9 +3,11 @@ package com.library.librarydatastore.service.impl;
 import com.library.librarydatastore.entities.User;
 import com.library.librarydatastore.model.request.UserRequest;
 import com.library.librarydatastore.service.user.UserService;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+@Component
 public class UserServiceImpl implements UserService {
     @Override
     public Integer addUser(UserRequest userRequest) {
@@ -35,5 +37,10 @@ public class UserServiceImpl implements UserService {
     @Override
     public Integer issueBookToUser(UserRequest userRequest) {
         return null;
+    }
+
+    @Override
+    public void returnBookfromUser(UserRequest userRequest) {
+
     }
 }
